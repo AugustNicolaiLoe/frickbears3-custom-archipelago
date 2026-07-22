@@ -1,0 +1,1 @@
+from .world import Frickbears3World as Frickbears3World
