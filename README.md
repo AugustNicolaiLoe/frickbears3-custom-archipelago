@@ -17,7 +17,7 @@ The current plan for the game and it's checks goes like this:
     - It is only when the related check is released and the animatronics check has been gotten that it's salvage value is set back to normal.
 
 - Animatronics themselves are a check.
-    - When an animatronic is found it is added the current night automatically. If it is already added, it's difficulty level is heightened.
+    - When an animatronic is found it is added to the current night automatically. If it is already added, it's difficulty level is heightened.
     - This also makes the salvage value for the animatronic go to it's original, instead of 0 after the check if released.
 
 - Animatronics are always added through salvage
@@ -108,3 +108,15 @@ The current plan for the game and it's checks goes like this:
 - Every check and randomisation here will be optional, and have options to use that decides how things will be done
 
 - one of my goals is to give as much freedom of choice to the player with what they want in their run
+
+
+## Connecting to Archipelago in Frickbears 3:
+- When in the main menu, a new option will apear "Archipelago Mode"
+
+- The player then has to enter the server adress, slot name, and password if needed
+
+- The game connects and authenticates
+
+- If everything is okay, a sepperate save slot for archipelago is created, and (maybe this will work) all data flow will be redirected into this one
+
+- If a sepperate save slot for archipelago is already there, it will check to see if it's the right one (need to find a way to do this)
