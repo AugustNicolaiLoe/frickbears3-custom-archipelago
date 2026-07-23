@@ -21,6 +21,9 @@
     <ClCompile Include="include\YYToolkit\YYTK_Shared_Types.cpp">
       <Filter>Zdrojové soubory</Filter>
     </ClCompile>
+    <ClCompile Include="source\SpriteReplacement.cpp">
+      <Filter>Zdrojové soubory</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\Aurie\shared.hpp">
